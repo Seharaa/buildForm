@@ -1,0 +1,226 @@
+
+.App {
+  display: flex;
+  height: 100vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.main-container {
+  display: flex;
+  height: 100vh; 
+}
+
+.h6{
+  font-size: small;
+}
+.dashboard-panel {
+  flex: 1; 
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ccc; 
+ 
+}
+
+.left-panel {
+  width: 30%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-right: 2px solid #ccc;
+}
+
+.right-panel {
+  width: 70%;
+  padding: 20px;
+}
+
+.preview {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  height:70vh;
+  width: 150vh;
+  align-self: center;
+  
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+.title{
+  color: rgb(133, 133, 133);
+  font-size: small;
+}
+.start {
+  padding: 10px 20px;
+  background-color: #50667e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content:hover {
+  background-color:rgb(220, 220, 220);
+}
+
+.save-btn, .discard-btn {
+  margin-right: 10px;
+}
+
+.save-btn {
+  width: 50%;
+  background-color:black;
+  color: white;
+  font-weight:900;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: #ffffff 1px solid;
+  display: inline-block;
+}
+
+.discard-btn {
+  width: 35%;
+  background-color:rgb(225, 225, 225);
+  color: rgb(196, 31, 31);
+  font-weight:900;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: #ffffff 1px solid;
+  display: inline-block;
+}
+
+label {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.image-options button {
+  margin-right: 5px;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+}
+
+#welcome{
+  background-color: #ccc;
+}
+.icon{
+  padding-left: 170px;
+}
+.nav-panel{
+align-items: center;
+}
+.content{
+  background-color:white;
+  color: gray;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: #ffffff 1px solid;
+  display: inline-block;
+
+}
+.stepd{
+  font-size:12px
+}
+.welcomend{
+  width: 100%;
+  background-color:rgb(225, 225, 225);
+  color: black;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: #ffffff 1px solid;
+  display: inline-block;
+}
+.addfield{
+  width: 35%;
+  background-color:rgb(225, 225, 225);
+  color: black;
+  font-weight:900;
+  padding: 5px 6px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  border-radius: 6px;
+  border: #ffffff 1px solid;
+  display: inline-block;
+}
+/* src/App.css */
+
+/* Modal styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  width: 300px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: rgb(4, 3, 3);
+  font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.field-options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.field-options button:hover {
+  background: #ddd;
+}
